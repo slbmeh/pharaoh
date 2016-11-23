@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+define('PHARAOH_PATH', dirname(__DIR__));
+
+require __DIR__.'/../vendor/autoload.php';
+
+$app = new Pharaoh\Console\Application();
+$app->run();
