@@ -1,5 +1,5 @@
 {
-    "name": "pharaoh-php/pharaoh",
+    "name": "pharaoh/pharaoh",
     "description": "Pharaoh command line application",
     "type": "project",
     "license": "MIT",
@@ -21,6 +21,7 @@
     },
     "require": {
         "php": ">=7.0",
+        "pharaoh-php/plugin-manager": "^1.0@dev",
         "symfony/console": "^3.1"
     },
     "bin": ["bin/pharaoh"],
