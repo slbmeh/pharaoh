@@ -5,5 +5,5 @@ define('PHARAOH_PATH', dirname(__DIR__));
 
 require __DIR__.'/../vendor/autoload.php';
 
-$app = new Pharaoh\Console\Application();
+$app = new Pharaoh\Component\Console\Application();
 $app->run();

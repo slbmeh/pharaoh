@@ -1,6 +1,6 @@
 <?php
 
-namespace Pharaoh\Console;
+namespace Pharaoh\Component\Console;
 
 use Symfony\Component\Console\Application as BaseApplication;
 
