@@ -1,5 +1,6 @@
 {
     "name": "pharaoh-php/pharaoh",
+    "description": "Pharaoh command line application",
     "type": "project",
     "license": "MIT",
     "authors": [
